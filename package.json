@@ -1,0 +1,9 @@
+{
+  "name": "fix-it-fast",
+  "version": "1.0.0",
+  "description": "DIY mobile game — tap to repair rooms before time runs out",
+  "scripts": {
+    "start": "npx serve . -p 3000 --no-clipboard",
+    "dev": "npx serve . -p 3000"
+  }
+}
