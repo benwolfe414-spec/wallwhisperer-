@@ -5,5 +5,8 @@
   "scripts": {
     "start": "npx serve . -p 3000 --no-clipboard",
     "dev": "npx serve . -p 3000"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
   }
 }
