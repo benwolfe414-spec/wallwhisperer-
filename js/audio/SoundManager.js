@@ -68,6 +68,10 @@ const SoundManager = (() => {
       });
     },
 
+    wrongTap() {
+      playTone({ type: 'sawtooth', freq: 180, gain: 0.18, duration: 0.13 });
+    },
+
     toggleMute() {
       muted = !muted;
       return muted;
